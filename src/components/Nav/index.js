@@ -13,21 +13,15 @@ export default class Nav extends Component {
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon" />
 					</button>
-					<div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-						<ul className="navbar-nav">
-							<li className="nav-item active">
-								<Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to="/portfolio">Portfolio</Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to="/about">About Me</Link>
-							</li>
-							<li className="nav-item">
-								<Link className="nav-link" to="/contact">Contact</Link>
-							</li>
-						</ul>
+					<div className="container">
+						<div className="collapse navbar-collapse">
+							<div className="navbar-nav">
+								<Link className="nav-item nav-link active" to="/">Home <span className="sr-only">(current)</span></Link>
+								<Link className="nav-item nav-link" to="/portfolio">Portfolio</Link>
+								<Link className="nav-item nav-link" to="/about-me">About Me</Link>
+								<Link className="nav-item nav-link disabled" to="/contact">Contact</Link>
+							</div>
+						</div>
 					</div>
 				</nav>
 			</header>

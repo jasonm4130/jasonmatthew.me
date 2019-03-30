@@ -1,0 +1,19 @@
+.facts {
+	.fact {
+		text-align: center;
+		margin-top: 2rem;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		svg {
+			margin: 0 auto;
+			fill: $light;
+			max-width: 10rem;
+			max-height: 10rem;
+			margin-bottom: 2rem;
+		}
+		.btn-container {
+			margin-top: auto;
+		}
+	}
+}

@@ -1,3 +1,21 @@
 .App {
 	background: $base;
 }
+
+.text-center {
+	text-align: center;
+}
+
+.lead {
+	padding-bottom: .5rem;
+	&:after {
+		content: '';
+		height: .1rem;
+		width: 60%;
+		background: $light;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

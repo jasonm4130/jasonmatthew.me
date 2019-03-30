@@ -1,0 +1,17 @@
+section {
+	background: $primary;
+	padding: 5rem 3rem;
+	margin-bottom: 5rem;
+	color: $light;
+	h1, h2, h3, h4, h5, h6 {
+		color: $light;
+	}
+	a {
+		color: $highlight;
+		font-weight: bold;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: saturate($highlight, 30%)
+		}
+	}
+}

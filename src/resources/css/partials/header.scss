@@ -9,7 +9,26 @@ header {
 		fill: $light;
 	}
 
-	.nav-link {
-		color: $light;
+	nav.navbar {
+		padding: 0;
+		.navbar-nav {
+			justify-content: center;
+			width: 100%;
+		}
+		.nav-item.nav-link {
+			padding: 1.5rem 3rem;
+			transition: all 0.3s ease-in-out;
+			color: $light;
+			&:hover {
+				background: lighten($primary, 5%);
+				text-decoration: none;
+			}
+			&.active {
+				background: $primary;
+				&:hover {
+					background: lighten($primary, 5%);
+				}
+			}
+		}
 	}
 }

@@ -1,0 +1,36 @@
+.btn {
+	border-radius: 0;
+	border: none;
+	transition: all 0.3s ease-in-out;
+	&.btn-cta {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-transform: uppercase;
+		color: $light;
+		padding: 1.5rem 5rem;
+		background: $highlight;
+		font-size: 1.25rem;
+		&:hover {
+			background: brighten($highlight, 10%);
+			box-shadow: .2rem .2rem .1rem rgba(#000000, 0.2);
+		}
+		svg {
+			display: inline-block;
+			fill: $light;
+			max-height: 1.25rem;
+			margin-left: 1rem;
+		}
+	}
+	&.btn-fact {
+		color: $light;
+		background: $highlight;
+		font-size: 1.25rem;
+		padding: 1rem 2rem;
+		margin-top: 2rem;
+		&:hover {
+			background: brighten($highlight, 10%);
+			box-shadow: .2rem .2rem .1rem rgba(#000000, 0.2);
+		}
+	}
+}

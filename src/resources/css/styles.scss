@@ -1,9 +1,17 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
 @import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import '../../../node_modules/bootstrap/scss/navbar';
+@import '../../../node_modules/bootstrap/scss/buttons';
+@import '../../../node_modules/bootstrap/scss/images';
 
 @import './vars';
 
 @import './partials/base';
+@import './partials/section';
+@import './partials/typography';
 @import './partials/header';
 @import './partials/hero';
+@import './partials/buttons';
+@import './partials/icons';
+@import './partials/facts';
+@import './partials/statistics';
