@@ -79,7 +79,7 @@ export default class Statistics extends Component {
 				otherLanguages.push(
 					<div className="col-sm-4" key={key}>
 						<div className="language-small">
-							<span className="name">{language.name}:</span> {language.data.xps}
+							<span className="name">{language.name}</span>: {language.data.xps}
 						</div>
 					</div>
 				);
@@ -111,6 +111,11 @@ export default class Statistics extends Component {
 						<div className="row">
 							{otherLanguages}
 						</div>
+					</div>
+				</div>
+				<div className="row justify-content-center">
+					<div className="col-auto">
+						<a href="https://codestats.net/users/jasonm4130" className="btn btn-large">More Info</a>
 					</div>
 				</div>
 			</section>

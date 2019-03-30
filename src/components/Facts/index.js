@@ -21,7 +21,7 @@ export default class Facts extends Component {
 							<p>If Amazons initial page load took 1s longer it would cost them an estimated $1.6 Billion. Yes with a B.</p>
 							<p>Google has tested that if their search results are 4/10ths of a second slower they would lose 8 million searches per day.</p>
 							<div className="btn-container">
-								<a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales" className="btn btn-fact">Read More</a>
+								<a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales" className="btn btn-large">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -32,7 +32,7 @@ export default class Facts extends Component {
 							<p>Facebook keeps more than 800 pages of data per user. That's a lot of data!</p>
 							<p>I'm not sure I could even write 800 pages of facts about myself.</p>
 							<div className="btn-container">
-								<a href="https://www.geek.com/geek-pick/facebook-stores-up-to-800-pages-of-personal-data-per-user-account-1424807/" className="btn btn-fact">Read More</a>
+								<a href="https://www.geek.com/geek-pick/facebook-stores-up-to-800-pages-of-personal-data-per-user-account-1424807/" className="btn btn-large">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@ export default class Facts extends Component {
 							<p>In 2007 approximately 6 hours of video were uploaded to YouTube per minuite.</p>
 							<p>In 2018 more than 500 hours of video is being uploaded to YouTube every minuite.</p>
 							<div className="btn-container">
-								<a href="https://tubularinsights.com/hours-minute-uploaded-youtube/" className="btn btn-fact">Read More</a>
+								<a href="https://tubularinsights.com/hours-minute-uploaded-youtube/" className="btn btn-large">Read More</a>
 							</div>
 						</div>
 					</div>
