@@ -6,8 +6,7 @@ export default class Medium extends Component {
 		super(props);
 
 		fetch('/.netlify/functions/api')
-        	.then(response => response.json())
-			.then(json => console.log(json));
+        	.then(response => console.log(response));
 
 	}
 
