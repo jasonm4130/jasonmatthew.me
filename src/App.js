@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import MainLayout from './components/MainLayout';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
                     <Route component={MainLayout} />
                     <div className="container">
                         <Route exact strict path="/" render={(props) => <Home menuOpen={this.state.menuOpen} />} />
+                        <Footer />
                     </div>
                 </div>
             </Router>

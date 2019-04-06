@@ -1,0 +1,37 @@
+footer {
+	background: $primary;
+	padding: 5rem 3rem;
+	color: $light;
+	h1, h2, h3, h4, h5, h6 {
+		color: $light;
+	}
+	.icons-row {
+		margin-top: 2rem;
+	}
+	svg {
+		height: 6rem;
+		max-width: 100%;
+		max-height: 100%;
+		width: auto;
+		padding: 1rem;
+		border-radius: .25rem;
+		fill: $light;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			background: $base;
+			&.twitter {
+				background: #55acee;
+			}
+			&.github {
+				background: #7B3B8C;
+			}
+			&.medium {
+				background: #E8F3EC;
+				fill: $base;
+			}
+			&.linkedin {
+				background: #0077B5;
+			}
+		}
+	}
+}
