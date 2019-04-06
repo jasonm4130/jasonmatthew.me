@@ -11,7 +11,7 @@ export default class article extends Component {
                 <p>{this.props.article.content.subtitle}</p>
                 <div className="row justify-content-center button-container">
 					<div className="col-auto">
-						<a href={"https://medium.com/@jason_matthew/" + this.props.article.uniqueSlug} target="_blank" className="btn btn-large">Read More</a>
+						<a href={"https://medium.com/@jason_matthew/" + this.props.article.uniqueSlug} target="_blank" rel="noopener noreferrer" className="btn btn-large">Read More</a>
 					</div>
 				</div>
             </div>

@@ -5,7 +5,9 @@ export default class MainLayout extends Component {
 	render() {
 		return (
 			<div>
-				<Nav />	
+				<Nav
+					location={this.props.location}
+				/>	
 			</div>
 		)
 	}

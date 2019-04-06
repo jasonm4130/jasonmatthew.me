@@ -17,6 +17,7 @@ footer {
 		border-radius: .25rem;
 		fill: $light;
 		transition: all 0.3s ease-in-out;
+		margin: .5rem auto;
 		&:hover {
 			background: $base;
 			&.twitter {

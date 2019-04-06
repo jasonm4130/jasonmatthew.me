@@ -6,15 +6,22 @@ header {
 		width: 30rem;
 		height: auto;
 		max-width: 100%;
-		fill: $light;
+        fill: $light;
+        @include media-breakpoint-down(sm) {
+            padding: 2rem;
+        }
 	}
 
 	nav.navbar {
-		padding: 0;
+        padding: 0;
+        justify-content: center;
 		.navbar-nav {
 			justify-content: center;
-			width: 100%;
-		}
+            width: 100%;
+        }
+        .container {
+            padding: 0 15px;
+        }
 		.nav-item.nav-link {
 			padding: 1.5rem 3rem;
 			transition: all 0.3s ease-in-out;
@@ -29,6 +36,67 @@ header {
 					background: lighten($primary, 5%);
 				}
 			}
-		}
+        }
+        @include media-breakpoint-down(sm) {
+            .collapse {
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+              
+                &.show {
+                    max-height: 99em;
+                    transition: max-height .5s ease-in-out;
+                }
+            }
+        }
 	}
+}
+
+.navbar-toggler {
+    position: relative;
+    min-height: 4rem;
+    min-width: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    .trigger {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .bars {
+        width: 3.25rem;
+        cursor: pointer;
+        .line {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 4;
+            stroke-linecap: square;
+            transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
+            &.top {
+                stroke-dasharray: 40 172;
+            }
+            &.middle {
+                stroke-dasharray: 40 111;
+            }
+            &.bottom {
+                stroke-dasharray: 40 172;
+            }
+        }
+        &.active {
+            .top {
+                stroke-dashoffset: -132px;
+            }
+            .middle {
+                stroke-dashoffset: -71px;
+            }
+            .bottom {
+                stroke-dashoffset: -132px;
+            }
+        }
+    }
 }

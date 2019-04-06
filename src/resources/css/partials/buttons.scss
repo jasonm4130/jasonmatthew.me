@@ -8,7 +8,8 @@
 		justify-content: center;
 		text-transform: uppercase;
 		color: $light;
-		padding: 1.5rem 5rem;
+		min-width: 16rem;
+		min-height: 5rem;
 		background: $highlight;
 		font-size: 1.25rem;
 		&:hover {
@@ -27,7 +28,7 @@
 		background: $highlight;
 		font-size: 1.25rem;
 		padding: 1rem 2rem;
-		margin-top: 2rem;
+		margin: 2rem auto;
 		&:hover {
 			background: brighten($highlight, 10%);
 			box-shadow: .2rem .2rem .1rem rgba(#000000, 0.2);

@@ -32,7 +32,6 @@ export default class Medium extends Component {
 			const articles = Object.keys(articlesObject).map(function (key) { return articlesObject[key]; });
 
 			articles.slice(0, 3).forEach((article, key) => {
-				console.log(article);
 				articlesArray.push(
 					<div key={key} className="col-md-4">
 						<Article
