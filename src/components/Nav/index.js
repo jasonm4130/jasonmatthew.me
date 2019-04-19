@@ -37,7 +37,7 @@ export default class Nav extends Component {
 						<div className={"collapse navbar-collapse" + (this.state.navbarOpen ? ' show' : '')}>
 							<div className="navbar-nav">
 								<Link className={"nav-item nav-link" + (this.props.location.pathname === '/' ? ' active' : '')} to="/">Home {(this.props.location.pathname === '/' ? '(current)' : '')}</Link>
-								<Link className={"nav-item nav-link" + (this.props.location.pathname === '/portfolio' ? ' active' : '')} to="/portfolio">Portfolio {(this.props.location.pathname === '/portfolio' ? '(current)' : '')}</Link>
+								<Link className={"nav-item nav-link" + (this.props.location.pathname.includes('/portfolio') ? ' active' : '')} to="/portfolio">Portfolio {(this.props.location.pathname.includes('/portfolio') ? '(current)' : '')}</Link>
 								<Link className={"nav-item nav-link" + (this.props.location.pathname === '/about-me' ? ' active' : '')} to="/about-me">About Me {(this.props.location.pathname === '/about-me' ? '(current)' : '')}</Link>
 								<Link className={"nav-item nav-link" + (this.props.location.pathname === '/contact' ? ' active' : '')} to="/contact">Contact {(this.props.location.pathname === '/contact' ? '(current)' : '')}</Link>
 							</div>

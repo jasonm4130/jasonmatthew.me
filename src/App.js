@@ -13,7 +13,7 @@ class App extends Component {
                     <Route component={MainLayout} />
                     <div className="container">
                         <Route exact strict path="/" render={(props) => <Home />} />
-                        <Route exact strict path="/portfolio" render={(props) => <Portfolio />} />
+                        <Route path="/portfolio" render={(props) => <Portfolio />} />
                         <Footer />
                     </div>
                 </div>

@@ -34,4 +34,12 @@
 			box-shadow: .2rem .2rem .1rem rgba(#000000, 0.2);
 		}
 	}
+	&.btn-portfolio {
+		color: $light;
+		background: $highlight;
+		&:hover {
+			background: brighten($highlight, 10%);
+			box-shadow: .2rem .2rem .1rem rgba(#000000, 0.2);
+		}
+	}
 }
