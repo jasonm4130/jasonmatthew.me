@@ -4,6 +4,7 @@ import MainLayout from './components/MainLayout';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import AboutMe from './components/AboutMe';
 
 class App extends Component {
     render() {
@@ -14,6 +15,7 @@ class App extends Component {
                     <div className="container">
                         <Route exact strict path="/" render={(props) => <Home />} />
                         <Route path="/portfolio" render={(props) => <Portfolio />} />
+                        <Route path="/about-me" render={(props) => <AboutMe />} />
                         <Footer />
                     </div>
                 </div>

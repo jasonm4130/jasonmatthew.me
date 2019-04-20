@@ -10,7 +10,15 @@ export default class Statistics extends Component {
 		this.state = {
 			isSorted: false,
 		}
+	}
 
+	componentDidUpdate() {
+		if (!this.state.isSorted){
+			this.orderLanguages(this.state.codeStats);
+		}
+	}
+
+	componentDidMount() {
 		fetch('https://codestats.net/api/users/jasonm4130')
 			.then((response) => {
 				return response.json();
@@ -18,13 +26,6 @@ export default class Statistics extends Component {
 			.then((myJson) => {
 				this.setState({ codeStats: myJson });
 			});
-
-	}
-
-	componentDidUpdate() {
-		if (!this.state.isSorted){
-			this.orderLanguages(this.state.codeStats);
-		}
 	}
 
 	orderLanguages(codeStats) {
