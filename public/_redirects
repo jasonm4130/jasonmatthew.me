@@ -1,1 +1,10 @@
 /*    /index.html   200
+
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://jasonmatthew.me/* https://www.jasonmatthew.dev/:splat 301!
+https://jasonmatthew.dev/* https://www.jasonmatthew.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://adoring-payne-804925.netlify.com/* https://www.jasonmatthew.dev/:splat 301!
