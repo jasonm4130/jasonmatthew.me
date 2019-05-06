@@ -18,15 +18,15 @@ export default class ContactForm extends Component {
                         <form action="" className="row contact-form">
                             <div className="col-md-6 form-field">
                                 <label for="name">Name</label>
-                                <input type="text" required />
+                                <input type="text" name="name" required />
                             </div>
                             <div className="col-md-6 form-field">
                                 <label for="email">E-mail</label>
-                                <input type="email" required />
+                                <input type="email" name="email" required />
                             </div>
                             <div className="col-12 form-field">
                                 <label for="message">Message</label>
-                                <textarea rows="5" cols="50" required />
+                                <textarea name="message" rows="5" cols="50" required />
                             </div>
                             <div className="col-12 text-center form-field">
                                 <input className="btn btn-large" type="submit" value="Submit" />
