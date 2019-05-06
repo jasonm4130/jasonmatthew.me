@@ -15,7 +15,8 @@ export default class ContactForm extends Component {
 				</div>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
-                        <form action="" className="row contact-form">
+                        <form name="contact" method="post" className="row contact-form">
+                        <input type="hidden" name="contact" value="contact" />
                             <div className="col-md-6 form-field">
                                 <label for="name">Name</label>
                                 <input type="text" name="name" required />
