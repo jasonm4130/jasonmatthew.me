@@ -10,9 +10,9 @@ export default class Home extends Component {
 		<div className="row">
 			<div className="col-12">
 				<Hero />
-				<Facts />
 				<Statistics />
 				<Medium />
+				<Facts />
 			</div>
 		</div>
 		)
