@@ -16,10 +16,10 @@ export default class LatestWork extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-6 text-center">
                         <h2>Latest Projects</h2>
-                        <p className="lead">Some of the latest projects I have been working on with permission to show you, or in my spare time.</p>
+                        <p className="lead">Some of the latest projects I have been working on.</p>
                     </div>
                 </div>
-                <div className="row justify-content-center portfolio-items">
+                <div className="row justify-content-center align-items-strech portfolio-items">
                     {this.state.portfolioItems}
                 </div>
             </section>

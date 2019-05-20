@@ -16,8 +16,8 @@ export default class PortfolioItemCard extends Component {
                 </div>
                 <h3>{this.props.item.title}</h3>
                 <p>{this.props.item.excerpt}</p>
-                <div className="row justify-content-center">
-                    <div className="col-6">
+                <div className="row justify-content-center btn-container">
+                    <div className="col-8">
                         <Link to={`/portfolio/${slug}`} className="btn btn-portfolio">More Info</Link>
                     </div>
                 </div>
