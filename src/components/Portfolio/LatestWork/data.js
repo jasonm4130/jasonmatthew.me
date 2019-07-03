@@ -9,36 +9,36 @@ import tecSkill from '../../../resources/images/portfolio/TecSkill-logo-2.png'
 import Pickleball from '../../../resources/images/portfolio/pickleball-logo-1.png'
 
 const data = [
-    {
-        "title": "Nightcap",
-        "year": "2019",
-        "excerpt": "A full stack project I worked on at Fastrack Group",
-        "content": <div><p>Working at Fastrack Group I worked on the Nightcap project with a particular focus on the booking experience.</p><p>With a focus on optimizing speed of data pulled in from API sources and ensuring that the user experience was optimal.</p><p>My main role involved working from designs to redevelop the home page, booking process and offers sections throughout the site. Working in a full stack role to complete these components.</p></div>,
-        "link": "https://nightcaphotels.com.au/",
-        "imageSrc": Nightcap,
-        "technologies": [
-            'Gulp',
-            'React',
-            'SASS',
-            'ES6',
-            'SilverStripe',
-            'PHP'
-        ]
-    },
-    {
-        "title": "TOP 10",
-        "year": "2019",
-        "excerpt": "A full stack project I worked on at Fastrack Group built in React as a PWA",
-        "content": <p>From start to finish I built a PWA in react and react router for TOP 10 Holiday Parks, to integrate with their membersip system providing members relevent information wherever they are in NZ.</p>,
-        "link": "https://member-portal.fastrackdev.com/",
-        "imageSrc": Top10,
-        "technologies": [
-            'React',
-            'SASS',
-            'ES6',
-            'PWA',
-        ]
-    },
+//     {
+//         "title": "Nightcap",
+//         "year": "2019",
+//         "excerpt": "A full stack project I worked on at Fastrack Group",
+//         "content": <div><p>Working at Fastrack Group I worked on the Nightcap project with a particular focus on the booking experience.</p><p>With a focus on optimizing speed of data pulled in from API sources and ensuring that the user experience was optimal.</p><p>My main role involved working from designs to redevelop the home page, booking process and offers sections throughout the site. Working in a full stack role to complete these components.</p></div>,
+//         "link": "https://nightcaphotels.com.au/",
+//         "imageSrc": Nightcap,
+//         "technologies": [
+//             'Gulp',
+//             'React',
+//             'SASS',
+//             'ES6',
+//             'SilverStripe',
+//             'PHP'
+//         ]
+//     },
+//     {
+//         "title": "TOP 10",
+//         "year": "2019",
+//         "excerpt": "A full stack project I worked on at Fastrack Group built in React as a PWA",
+//         "content": <p>From start to finish I built a PWA in react and react router for TOP 10 Holiday Parks, to integrate with their membersip system providing members relevent information wherever they are in NZ.</p>,
+//         "link": "https://member-portal.fastrackdev.com/",
+//         "imageSrc": Top10,
+//         "technologies": [
+//             'React',
+//             'SASS',
+//             'ES6',
+//             'PWA',
+//         ]
+//     },
     {
         "title": "Lanx Media",
         "year": "2018",
@@ -54,37 +54,37 @@ const data = [
             'jQuery',
         ]
     },
-    {
-        "title": "BIG4 Toowoomba",
-        "year": "2019",
-        "excerpt": "A full stack project I worked on at Fastrack Group based",
-        "content": <p>I worked on the redesign of BIG4 Toowoomba while at Fastrack Group, completing the entire backend process of the main site and the frontend process of the Web Booking Interface</p>,
-        "link": "https://big4toowoombagchp.com.au/",
-        "imageSrc": BIG4,
-        "technologies": [
-            'Gulp',
-            'SASS',
-            'ES6',
-            'SilverStripe',
-            'PHP'
-        ]
-    },
-    {
-        "title": "Drive Car Hire",
-        "year": "2019",
-        "excerpt": "A backend project I worked on at Fastrack Group based",
-        "content": <p>Drive Car Hire was worked on as a backend project by me, completing the entire backend with exception of the booking process.</p>,
-        "link": "https://drivecarhire.com.au/",
-        "imageSrc": driveCarHire,
-        "technologies": [
-            'Gulp',
-            'Handlebars.js',
-            'SASS',
-            'ES6',
-            'SilverStripe',
-            'PHP'
-        ]
-    },
+//     {
+//         "title": "BIG4 Toowoomba",
+//         "year": "2019",
+//         "excerpt": "A full stack project I worked on at Fastrack Group based",
+//         "content": <p>I worked on the redesign of BIG4 Toowoomba while at Fastrack Group, completing the entire backend process of the main site and the frontend process of the Web Booking Interface</p>,
+//         "link": "https://big4toowoombagchp.com.au/",
+//         "imageSrc": BIG4,
+//         "technologies": [
+//             'Gulp',
+//             'SASS',
+//             'ES6',
+//             'SilverStripe',
+//             'PHP'
+//         ]
+//     },
+//     {
+//         "title": "Drive Car Hire",
+//         "year": "2019",
+//         "excerpt": "A backend project I worked on at Fastrack Group based",
+//         "content": <p>Drive Car Hire was worked on as a backend project by me, completing the entire backend with exception of the booking process.</p>,
+//         "link": "https://drivecarhire.com.au/",
+//         "imageSrc": driveCarHire,
+//         "technologies": [
+//             'Gulp',
+//             'Handlebars.js',
+//             'SASS',
+//             'ES6',
+//             'SilverStripe',
+//             'PHP'
+//         ]
+//     },
     {
         "title": "Style Pose Click",
         "year": "2018",
