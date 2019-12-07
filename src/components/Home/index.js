@@ -11,7 +11,6 @@ export default class Home extends Component {
 			<div className="col-12">
 				<Hero />
 				<Statistics />
-				// <Medium />
 				<Facts />
 			</div>
 		</div>
