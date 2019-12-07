@@ -28,7 +28,9 @@ export default class Medium extends Component {
 
 		if (this.state.articlesRecieved) {
 			
-			const articlesObject = this.state.articlesData.payload.references.Post
+			console.log(this.state.articlesRecieved);
+
+			// const articlesObject = this.state.articlesData.payload.references.Post
 			const articles = Object.keys(articlesObject).map(function (key) { return articlesObject[key]; });
 
 			articles.slice(0, 3).forEach((article, key) => {
